@@ -1719,3 +1719,57 @@ Personalisations
 #strateji .img-fluid {
     min-height: 100%;
 }
+
+.index-icon {
+    color: #ffc451;
+    font-size: 20px;
+}
+
+.index-input {
+    border: none;
+    border-bottom: 1.5px solid #ffcd6b;
+    width: 100%;
+    border-radius: 0%;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-row .col-md-3 {
+    padding: 20px;
+}
+
+.icon-row {
+    padding: 10px;
+}
+
+.icon-row .icon-container {
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.icon-row .icon-container:hover {
+    color: #ffcd6b;
+    border-bottom: 3px solid #ffcd6b;
+}
+
+.icon-row .icon-container.empty:hover {
+    border-bottom: 1px solid #aaa;
+}
+
+.icon-row .icon-container.active {
+    color: #ffcd6b;
+    border-bottom: 3px solid #ffcd6b;
+}
+
+.icon-row .icon-container.empty.active {
+    border-bottom: 1px solid #aaa;
+}
+
+.index-form {
+    transition: 0.1s ease-in-out;
+}
